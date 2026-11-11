@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vamshi R - AI Product Engineer</title>
+<meta name="description" content="Backend and full-stack engineer in Bengaluru. Three years of enterprise IoT security work at Nagra Vision, and founder of Seyon, a field-service SaaS running with paying customers.">
+<style>
+  :root { --page:#f4efec; --card:#ffffff; --ink:#1d1a17; --muted:#6b6259; --line:#e7ded6; --accent:#8a4b2f; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--page); }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: var(--ink); line-height: 1.6; }
+  .card { max-width: 680px; margin: 32px auto; background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 40px 32px; }
+  header { text-align: center; }
+  .portrait { width: 160px; height: 160px; border-radius: 50%; object-fit: cover; border: 1px solid var(--line); }
+  h1 { font-size: 32px; margin: 20px 0 4px; }
+  .fact { color: var(--accent); font-weight: 600; font-size: 17px; margin: 0 0 12px; }
+  .intro { color: var(--muted); max-width: 520px; margin: 0 auto; }
+  section { margin-top: 36px; }
+  h2 { font-size: 20px; border-bottom: 1px solid var(--line); padding-bottom: 8px; margin-bottom: 16px; }
+  .key { font-size: 17px; font-weight: 600; }
+  .row { display: flex; gap: 14px; padding: 14px 0; border-bottom: 1px solid var(--line); }
+  .row:last-child { border-bottom: none; }
+  .num { flex: 0 0 28px; height: 28px; border-radius: 50%; background: var(--page); color: var(--muted); display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 600; }
+  .row .name { font-weight: 600; }
+  .row .detail { color: var(--muted); font-size: 15px; }
+  .row .value { margin-left: auto; flex: 0 0 auto; color: var(--accent); font-weight: 600; font-size: 14px; white-space: nowrap; }
+  dl { display: grid; grid-template-columns: 130px 1fr; gap: 6px 16px; margin: 0; }
+  dt { color: var(--muted); font-size: 14px; }
+  dd { margin: 0; font-size: 15px; }
+  a { color: var(--accent); }
+  .caption { color: var(--muted); font-size: 14px; }
+  footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; text-align: center; }
+  @media (max-width: 560px) { .card { margin: 0; border: none; border-radius: 0; padding: 28px 20px; } dl { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<main class="card">
+  <header>
+    <img class="portrait" src="vamshi-portrait.jpg" alt="Vamshi R, portrait against a wooden wall">
+    <h1>Vamshi R</h1>
+    <p class="fact">AI Product Engineer</p>
+    <p class="intro">Backend and full-stack engineer in Bengaluru. Three years of enterprise IoT security work at Nagra Vision, and founder of Seyon, a field-service SaaS running with paying customers.</p>
+  </header>
+
+  <section>
+    <h2>What I do</h2>
+    <p class="key">Engineering first: I turn AI into useful software, not prompt experiments.</p>
+    <p>I build real products, not just assigned tasks. My work sits at the join of backend engineering, AI features and product thinking: APIs, data models and infrastructure on one side; LLMs, retrieval and agent workflows on the other; customer problems and business models running through both.</p>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+    <div class="row">
+      <div class="num">1</div>
+      <div>
+        <div class="name">Nagra Vision (Kudelski Group) - Java Backend Developer</div>
+        <div class="detail">Aug 2023 to present. Enterprise IoT security: microservices, APIs, device provisioning, certificate workflows and security integrations.</div>
+      </div>
+      <div class="value">3+ yrs</div>
+    </div>
+    <div class="row">
+      <div class="num">2</div>
+      <div>
+        <div class="name">Seyon - Founder</div>
+        <div class="detail">Field-service SaaS for fire-safety and HVAC businesses, designed, built and operated end to end.</div>
+      </div>
+      <div class="value">Live</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Seyon</h2>
+    <p>Service businesses used to take complaints over phone calls with no record. Seyon gives their customers a ticket portal with full history, and gives the business attendance tracking with GPS, signed service reports, AMC checklists and subscription billing.</p>
+    <dl>
+      <dt>Status</dt><dd>In production with paying customers</dd>
+      <dt>Platform</dt><dd>Next.js, Node.js, PostgreSQL</dd>
+      <dt>Mobile</dt><dd>Android app on Google Play</dd>
+      <dt>Website</dt><dd>seyon.company</dd>
+    </dl>
+    <p><a href="https://seyon.company">seyon.company</a> &middot; <a href="https://play.google.com/store/apps/details?id=com.seyon.app">Google Play</a></p>
+  </section>
+
+  <section>
+    <h2>Personal projects</h2>
+    <div class="row">
+      <div class="num">1</div>
+      <div>
+        <div class="name">Multi-Agent Code Engineer</div>
+        <div class="detail">A LangGraph pipeline that turns a feature request into code through research, generation, review and test stages. FastAPI, Streamlit. Working exploration, not production-hardened.</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="num">2</div>
+      <div>
+        <div class="name">Agentic RAG Chatbot</div>
+        <div class="detail">Hybrid retrieval (BM25 plus semantic embeddings) over ChromaDB with LangChain and LangGraph agents. FastAPI backend, Groq LLM. Working prototype.</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="num">3</div>
+      <div>
+        <div class="name">CollaborAI</div>
+        <div class="detail">Early prototype for AI-powered business matching: parses Java codebases with AST analysis and Claude to surface complementary capabilities between companies.</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>How I build</h2>
+    <dl>
+      <dt>Backend</dt><dd>Java, Node.js (Express), Python (FastAPI)</dd>
+      <dt>Frontend</dt><dd>Next.js, React, TypeScript</dd>
+      <dt>AI</dt><dd>LLM integration, RAG, agent orchestration (LangChain, LangGraph)</dd>
+      <dt>Data and infra</dt><dd>PostgreSQL, Supabase, AWS, CI/CD (GitLab, Jenkins)</dd>
+    </dl>
+  </section>
+
+  <section>
+    <h2>Find me</h2>
+    <p><a href="https://www.linkedin.com/in/vamshi-r-27b237449/">LinkedIn</a> &middot; <a href="https://github.com/Vamshi-krishh">GitHub</a> &middot; <a href="mailto:vamshir2001@gmail.com">vamshir2001@gmail.com</a></p>
+    <p class="caption">Open to conversations about AI products, backend platforms and developer tools.</p>
+  </section>
+
+  <footer>Details as of November 2026. Explorations and prototypes are labeled as such; nothing here claims invented numbers.</footer>
+</main>
+</body>
+</html>
